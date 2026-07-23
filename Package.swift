@@ -11,7 +11,7 @@ import PackageDescription
 let package = Package(
     name: "gpi-logger",
     platforms: [
-        .iOS("14.0"),  // os.Logger 기준
+        .iOS("15.0"),  // 현재 Xcode 지원 하한 (os.Logger 는 iOS 14+ 지만 15 이상으로 정합)
     ],
     products: [
         // binary + carrier 를 하나의 라이브러리로 묶음.

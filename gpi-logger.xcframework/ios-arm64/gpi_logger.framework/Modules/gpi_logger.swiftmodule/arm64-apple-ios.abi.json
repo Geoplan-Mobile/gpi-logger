@@ -1,0 +1,295 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "gpi_logger",
+    "printedName": "gpi_logger",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_logger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "gpi_logger"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_logger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "gpi_logger"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GpiLogger",
+        "printedName": "GpiLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "subsystem",
+            "printedName": "subsystem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10gpi_logger9GpiLoggerC9subsystemSSvp",
+            "mangledName": "$s10gpi_logger9GpiLoggerC9subsystemSSvp",
+            "moduleName": "gpi_logger",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10gpi_logger9GpiLoggerC9subsystemSSvg",
+                "mangledName": "$s10gpi_logger9GpiLoggerC9subsystemSSvg",
+                "moduleName": "gpi_logger",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(subsystem:fileLogging:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GpiLogger",
+                "printedName": "gpi_logger.GpiLogger",
+                "usr": "s:10gpi_logger9GpiLoggerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10gpi_logger9GpiLoggerC9subsystem11fileLoggingACSS_Sbtcfc",
+            "mangledName": "$s10gpi_logger9GpiLoggerC9subsystem11fileLoggingACSS_Sbtcfc",
+            "moduleName": "gpi_logger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:separator:terminator:category:fileID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10gpi_logger9GpiLoggerC3log_9separator10terminator8category6fileIDyypd_S3SSgSStF",
+            "mangledName": "$s10gpi_logger9GpiLoggerC3log_9separator10terminator8category6fileIDyypd_S3SSgSStF",
+            "moduleName": "gpi_logger",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10gpi_logger9GpiLoggerC",
+        "mangledName": "$s10gpi_logger9GpiLoggerC",
+        "moduleName": "gpi_logger",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/internal\/FileLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 887,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/internal\/FileLogger.swift",
+      "kind": "FloatLiteral",
+      "offset": 1008,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/internal\/FileLogger.swift",
+      "kind": "Dictionary",
+      "offset": 1144,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/internal\/FileLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/internal\/FileLogger.swift",
+      "kind": "Array",
+      "offset": 2234,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/GpiLogger.swift",
+      "kind": "Dictionary",
+      "offset": 868,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/GpiLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1227,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/GpiLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2840,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/byunghyunjeon\/work\/asSite\/internal\/iosLib\/gpi-logger\/gpi-logger\/GpiLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2874,
+      "length": 4,
+      "value": "\"\n\""
+    }
+  ]
+}
